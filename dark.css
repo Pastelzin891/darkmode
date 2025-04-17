@@ -1,0 +1,117 @@
+body{
+    background-color: darkgray;
+}
+header{display: flex;
+    justify-content: end;
+    gap: 650px;
+}
+
+ h1{
+     color: orange;
+     font-style: italic;
+ }
+ main{
+     
+     align-items: center;
+     text-align: center;
+ }
+ a{
+     width: 100px;
+     height: 50px;
+     border-radius: 10px;
+     border-color: transparent;
+     transition: 0.3s;
+ 
+ }
+ a:hover{
+     cursor: pointer;
+     transform: scale(1.1);
+     color: darkorange;  
+ }
+ 
+ .marcadores{
+     padding: 0;
+     list-style-type: none;
+ }
+ 
+ .marcadores li::before{
+     content: "•"; 
+     margin-right: 10px;
+ }
+ 
+ .marcadores li:nth-child(1)::before{
+     color: orange;
+ }
+ 
+ .marcadores li:nth-child(2)::before{
+     color: orange;
+ }
+ 
+ .marcadores li:nth-child(3)::before{
+     color: orange;
+ }
+ 
+ .marcadores li:nth-child(4)::before{
+     color: orange;
+ }
+ 
+ .marcadores li:nth-child(5)::before{
+     color: orange;
+ }
+ 
+ .marcadores li:nth-child(6)::before{
+     color: orange;
+ }
+ 
+ .marcadores li:nth-child(7)::before{
+     color: orange;
+ }
+  
+ 
+ .marca{
+     padding: 0;
+     list-style-type: none;
+     
+ }
+ 
+ .marca li::before{
+     content: "•"; 
+     margin-right: 10px;
+ }
+ 
+ .marca li:nth-child(1)::before{
+     color: orange;
+ }
+ 
+ .marca li:nth-child(2)::before{
+     color: orange;
+ }
+ 
+ .marca li:nth-child(3)::before{
+     color: orange;
+ }
+ 
+ .marca li:nth-child(4)::before{
+     color: orange;
+ }
+ 
+ .marca li:nth-child(5)::before{
+     color: orange;
+ }
+ 
+ .marca li:nth-child(6)::before{
+     color: orange;
+ }
+ 
+ .marca li:nth-child(7)::before{
+     color: orange;
+ }
+ .marca li:nth-child(8)::before{
+     color: orange;
+ }
+ .marca li:nth-child(9)::before{
+     color: orange;
+ }
+ .marca li:nth-child(10)::before{
+     color: orange;
+ }
